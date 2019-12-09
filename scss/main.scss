@@ -1,0 +1,42 @@
+
+@import "../scss/resources";
+@import "../scss/navbar";
+@import "../scss/mainsection";
+@import "../scss/about";
+@import "../scss/videos";
+@import "../scss/members";
+@import "../scss/footer";
+
+body{
+    margin: 0;
+    padding: 0;
+    background: $background;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.section-title{
+    padding-top: 2rem;
+}
+
+.h-line{
+    background: $colorWhite;
+    margin-top: 6rem;
+}
+
+#top-button{
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: $colorDarcula;
+    color: $colorWhite;
+    border: none;
+    cursor: pointer;
+    display: none;
+    z-index : 2;
+}
+

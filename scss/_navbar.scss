@@ -1,0 +1,35 @@
+@import "../scss/resources";
+
+.app-logo{
+    height: 60px;
+    margin-left: 1rem;
+}
+
+.navbar-nav{
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: $nav-link-inactive;
+    margin: 20px;
+
+    &:hover{
+        color: $nav-link-active;
+        margin: 20px;
+        border-bottom: 2px solid $nav-link-active;
+        transition: border-bottom 0.2s;
+    }
+    &.active{
+        color: $nav-link-active;
+        margin: 20px;
+        border-bottom: 2px solid $nav-link-active;
+    }
+}
+
+.navbar-light .navbar-toggler{
+    border-color: $nav-link-active;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("/dist/assets/icons/menu-button.png");
+}

@@ -1,0 +1,19 @@
+{
+  "name": "haze_website",
+  "version": "1.0.0",
+  "description": "Website for Haze Band",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lowi Adrian Colinares",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^4.4.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.16.0",
+    "smooth-scroll": "^16.1.0"
+  }
+}

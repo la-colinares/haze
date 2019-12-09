@@ -1,0 +1,332 @@
+/*-Developed by: Lowi Adrian Colinares 2019-*/
+/*-www.lacolinares.com-*/
+
+/*---Media Queries---*/
+@media (min-width: 1281px){
+    /*Contact*/
+    .contact-map{
+        text-align: center;
+        height: 500px;
+        width: 400px;
+    
+    }
+    .contact-info{
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        text-align: left;
+    }
+    .email-info{
+        font-size: 1rem;
+        text-align: left;
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    /*Contact*/
+    .contact-map{
+        text-align: center;
+        height: 500px;
+        width: 600px;
+    
+    }
+    .contact-info{
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        text-align: left;
+    }
+    .email-info{
+        font-size: 1rem;
+        text-align: left;
+        padding-top: 0;
+    }
+    
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    /*Contact*/
+    .contact-map{
+        text-align: center;
+        height: 500px;
+        width: 600px;
+    
+    }
+    .contact-info{
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        text-align: left;
+    }
+    .email-info{
+        font-size: 1rem;
+        text-align: left;
+        padding-top: 0;
+    }
+    
+}
+
+@media (min-width: 641px) and (max-width: 768px){
+   /*Navbar*/
+   .app-logo{
+        height: 48px;
+        margin-left: 0.2rem;
+    }
+    /*About*/
+    .group-photo{
+        text-align: center;
+        height: 12rem;
+        width: 100%;
+    }
+    .band-description{
+        font-size: 0.75rem;
+    }
+
+    /*Contact*/
+    .contact-map{
+        text-align: center;
+        height: 100%;
+        width: 760px;
+    
+        .gmap-canvas{
+            height:100%;
+            width:100%;
+        }
+    
+        .iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .contact-info{
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        text-align: center;
+    }
+    .email-info{
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 0;
+    }
+    .footer-bottom-text{
+        line-height: 60px;
+        font-size: 1rem;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 640px){
+    /*Navbar*/
+    .app-logo{
+        height: 48px;
+        margin-left: 0.2rem;
+    }
+    /*Home Logo*/
+    .img-container img{
+        display: flex;
+        height: 16rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6rem;
+        margin-bottom: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    /*About*/
+    .group-photo{
+        text-align: center;
+        height: 12rem;
+        width: 100%;
+    }
+    .band-description{
+        font-size: 0.7rem;
+    }
+    /*Members*/
+    .card{
+        .card-title{
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    }
+    /*Contact*/
+    .contact-map{
+        text-align: center;
+        height: 100%;
+    
+        .gmap-canvas{
+            height:100%;
+            width:100%;
+        }
+    
+        .iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .contact-info{
+        font-size: 1rem;
+        padding-top: 1rem;
+        text-align: center;
+    }
+    .email-info{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .footer-bottom-text{
+        line-height: 60px;
+        font-size: 1rem;
+    }
+    
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+
+    #top-button{
+        right: 40px;
+    }
+
+    /*Navbar*/
+    .app-logo{
+        height: 48px;
+        margin-left: 0.2rem;
+    }
+     /*Home Logo*/
+     .img-container img{
+        display: flex;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6rem;
+        margin-bottom: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    /*About*/
+    .group-photo{
+        height: 14rem;
+        width: 19rem;
+        text-align: center;
+    }
+    .band-description{
+        padding-top: 1rem;
+        font-size: 0.8rem;
+    }
+    /*Contact*/
+    .contact-map{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    
+        .gmap-canvas{
+            height:100%;
+            width:100%;
+        }
+        .iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .contact-info{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .email-info{
+        text-align: center;
+        font-size: 1rem;
+        padding-top: 0.2rem;
+    }
+    .footer-bottom-text{
+        line-height: 60px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px){
+
+    #top-button{
+        right: 40px;
+    }
+
+    /*Navbar*/
+    .app-logo{
+        height: 48px;
+        margin-left: 0.2rem;
+    }
+    /*Home Logo*/
+    .img-container img{
+        display: flex;
+        height: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6rem;
+        margin-bottom: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    /*About*/
+    .group-photo{
+        height: 10rem;
+        width: 16rem;
+    }
+    .band-description{
+        padding-top: 1rem;
+        font-size: 0.8rem;
+    }
+    /*Members*/
+    .card-container{
+        margin: 1rem;
+    }
+    .card{
+        .card-header{
+            height: 100px;
+            .member-photo{
+                width: 92px;
+                height: 92px;
+                border-radius: 1000px;
+                z-index: 1;
+                transform: translate(50%, -50%);
+                box-shadow : 0 0 20px rgba(0, 0, 0, .2);
+            }
+
+            .full-name{
+                text-align: center;
+                padding-top: 1rem;
+                font-size: 16px;
+            }
+        }
+        .position{
+            text-align: center;
+        }
+    }
+    /*Contact*/
+    .contact-map{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    
+        .gmap-canvas{
+            height:100%;
+            width:100%;
+        }
+    
+        .iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .contact-info{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .email-info{
+        text-align: center;
+        font-size: 0.8rem;
+        padding-top: 0.2rem;
+    }
+
+    
+    .footer-bottom-text{
+        line-height: 60px;
+        font-size: 12px;
+    }
+
+
+}
