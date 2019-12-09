@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+/*Colors*/
+@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+/*Colors*/
+@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+.app-logo {
+  height: 60px;
+  margin-left: 1rem;
+}
+
+.navbar-nav {
+  margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #f1f1f1;
+  margin: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #18c8ca;
+  margin: 20px;
+  border-bottom: 2px solid #18c8ca;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #18c8ca;
+  margin: 20px;
+  border-bottom: 2px solid #18c8ca;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #18c8ca;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("/dist/assets/icons/menu-button.png");
+}
+
+/*Colors*/
+section {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img-container img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  margin-bottom: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.txt-caption {
+  font-family: "Saira Stencil One", cursive;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.section-title {
+  text-align: center;
+  color: #fff;
+  margin: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+/*Colors*/
+.about-container {
+  padding-top: 4rem;
+}
+
+.group-photo {
+  height: 21rem;
+  width: 30rem;
+}
+
+.band-description {
+  color: #fff;
+}
+
+/*Colors*/
+.videos-container {
+  padding-top: 4rem;
+}
+
+.thumb-video {
+  width: 100%;
+  height: 360px;
+}
+
+/*Colors*/
+.members-container {
+  padding-top: 4rem;
+}
+
+.card-container {
+  background: -webkit-gradient(linear, left top, right top, color-stop(100%, #00192d), to(#00192d));
+  background: linear-gradient(90deg, #00192d 100%, #00192d 100%);
+}
+
+.card-deck {
+  padding-top: 1rem;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, color-stop(100%, #00192d), to(#00192d));
+  background: linear-gradient(90deg, #00192d 100%, #00192d 100%);
+  -webkit-box-shadow: 0 3px 30px rgba(0, 0, 0, 0.14);
+          box-shadow: 0 3px 30px rgba(0, 0, 0, 0.14);
+  color: #fff;
+  font-size: 16px;
+}
+
+.card .card-img-top {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  margin: 16px auto;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.card .text-muted {
+  text-align: center;
+}
+
+/*Colors*/
+footer {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-container {
+  padding-top: 4rem;
+}
+
+.contact-map {
+  position: relative;
+  height: 500px;
+  width: 600px;
+}
+
+.contact-map .gmap-canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+
+.contact-map .iframe {
+  width: 300px;
+  height: 500px;
+}
+
+.contact-info {
+  color: #fff;
+  padding-top: 2.6rem;
+  font-size: 1.4rem;
+}
+
+.email-info {
+  color: #fff;
+  padding-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.footer-bottom-text {
+  text-align: center;
+  color: #fff;
+  background-color: #0a0a0a;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 60px;
+}
+
+.footer-bottom-text a {
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#121214), to(#00192d));
+  background: linear-gradient(90deg, #121214 0%, #00192d 100%);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.section-title {
+  padding-top: 2rem;
+}
+
+.h-line {
+  background: #fff;
+  margin-top: 6rem;
+}
+
+#top-button {
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #0a0a0a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: none;
+  z-index: 2;
+}
+/*# sourceMappingURL=main.css.map */
