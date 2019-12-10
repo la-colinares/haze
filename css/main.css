@@ -111,8 +111,7 @@ section {
 }
 
 .card-container {
-  background: -webkit-gradient(linear, left top, right top, color-stop(100%, #00192d), to(#00192d));
-  background: linear-gradient(90deg, #00192d 100%, #00192d 100%);
+  background: #263238;
 }
 
 .card-deck {
@@ -123,8 +122,7 @@ section {
   width: 100%;
   height: 100%;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, color-stop(100%, #00192d), to(#00192d));
-  background: linear-gradient(90deg, #00192d 100%, #00192d 100%);
+  background: #263238;
   -webkit-box-shadow: 0 3px 30px rgba(0, 0, 0, 0.14);
           box-shadow: 0 3px 30px rgba(0, 0, 0, 0.14);
   color: #fff;
@@ -135,7 +133,7 @@ section {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 6px solid #fff;
+  border: 3px solid #fff;
   margin: 16px auto;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -148,6 +146,7 @@ section {
 
 .card .text-muted {
   text-align: center;
+  color: #fff !important;
 }
 
 footer {
@@ -162,20 +161,20 @@ footer {
 
 .contact-map {
   position: relative;
-  height: 500px;
-  width: 600px;
+  height: 100%;
+  width: 100%;
 }
 
-.contact-map .gmap-canvas {
+.contact-map #gmap-canvas {
   overflow: hidden;
   background: none !important;
-  height: 500px;
+  height: 360px;
   width: 600px;
 }
 
 .contact-map .iframe {
-  width: 300px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 .contact-info {
@@ -190,13 +189,20 @@ footer {
   font-size: 1.4rem;
 }
 
+.fb-page-info {
+  color: #fff;
+}
+
+.fb-page-info a {
+  color: #fff;
+}
+
 .footer-bottom-text {
   text-align: center;
   color: #fff;
-  background-color: #0a0a0a;
   margin-bottom: 0;
   padding-bottom: 0;
-  line-height: 60px;
+  line-height: 64px;
 }
 
 .footer-bottom-text a {
@@ -225,7 +231,7 @@ body {
 #top-button {
   position: fixed;
   bottom: 40px;
-  right: 10px;
+  right: 40px;
   font-size: 22px;
   width: 50px;
   height: 50px;
