@@ -6,8 +6,8 @@
     /*Contact*/
     .contact-map{
         text-align: center;
-        height: 500px;
-        width: 400px;
+        height: 100%;
+        width: 100%;
     
     }
     .contact-info{
@@ -26,8 +26,8 @@
     /*Contact*/
     .contact-map{
         text-align: center;
-        height: 500px;
-        width: 600px;
+        height: 100%;
+        width: 100%;
     
     }
     .contact-info{
@@ -46,19 +46,23 @@
     /*Contact*/
     .contact-map{
         text-align: center;
-        height: 500px;
-        width: 600px;
+        height: 100%;
+        width: 100%;
     
     }
     .contact-info{
         font-size: 1rem;
         padding-top: 0.5rem;
-        text-align: left;
+        text-align: center;
     }
     .email-info{
         font-size: 1rem;
-        text-align: left;
+        text-align: center;
         padding-top: 0;
+    }
+    .fb-page-info{
+        text-align: center;
+        font-size: 1rem;
     }
     
 }
@@ -79,15 +83,21 @@
         font-size: 0.75rem;
     }
 
+    /*Members*/
+    .card{
+        .card-text{
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    }
+
     /*Contact*/
     .contact-map{
         text-align: center;
         height: 100%;
-        width: 760px;
     
-        .gmap-canvas{
-            height:100%;
-            width:100%;
+        #gmap-canvas{
+            width:480px;
         }
     
         .iframe{
@@ -104,6 +114,11 @@
         font-size: 1rem;
         text-align: center;
         padding-top: 0;
+    }
+    .fb-page-info{
+        text-align: center;
+        font-size: 1rem;
+        padding-top: 0.2rem;
     }
     .footer-bottom-text{
         line-height: 60px;
@@ -150,9 +165,8 @@
         text-align: center;
         height: 100%;
     
-        .gmap-canvas{
-            height:100%;
-            width:100%;
+        #gmap-canvas{
+            width:420px;
         }
     
         .iframe{
@@ -169,6 +183,12 @@
         font-size: 1rem;
         text-align: center;
     }
+
+    .fb-page-info{
+        text-align: center;
+        font-size: 1rem;
+    }
+
     .footer-bottom-text{
         line-height: 60px;
         font-size: 1rem;
@@ -201,7 +221,7 @@
     /*About*/
     .group-photo{
         height: 14rem;
-        width: 19rem;
+        width: 20rem;
         text-align: center;
     }
     .band-description{
@@ -214,9 +234,8 @@
         width: 100%;
         text-align: center;
     
-        .gmap-canvas{
-            height:100%;
-            width:100%;
+        #gmap-canvas{
+            width:360px;
         }
         .iframe{
             width: 100%;
@@ -228,6 +247,11 @@
         text-align: center;
     }
     .email-info{
+        text-align: center;
+        font-size: 1rem;
+        padding-top: 0.2rem;
+    }
+    .fb-page-info{
         text-align: center;
         font-size: 1rem;
         padding-top: 0.2rem;
@@ -301,9 +325,11 @@
         width: 100%;
         text-align: center;
     
-        .gmap-canvas{
-            height:100%;
-            width:100%;
+        #gmap-canvas{
+            overflow:hidden;
+            background:none!important;
+            height:360px;
+            width:240px;
         }
     
         .iframe{
@@ -317,6 +343,11 @@
     }
 
     .email-info{
+        text-align: center;
+        font-size: 0.8rem;
+        padding-top: 0.2rem;
+    }
+    .fb-page-info{
         text-align: center;
         font-size: 0.8rem;
         padding-top: 0.2rem;
