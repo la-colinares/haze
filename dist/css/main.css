@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
-/*Colors*/
 @import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
-/*Colors*/
 @import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
@@ -50,7 +48,6 @@
   background-image: url("/dist/assets/icons/menu-button.png");
 }
 
-/*Colors*/
 section {
   height: 100%;
   width: 80%;
@@ -87,7 +84,6 @@ section {
   font-family: "Rubik", sans-serif;
 }
 
-/*Colors*/
 .about-container {
   padding-top: 4rem;
 }
@@ -101,7 +97,6 @@ section {
   color: #fff;
 }
 
-/*Colors*/
 .videos-container {
   padding-top: 4rem;
 }
@@ -111,7 +106,6 @@ section {
   height: 360px;
 }
 
-/*Colors*/
 .members-container {
   padding-top: 4rem;
 }
@@ -156,7 +150,6 @@ section {
   text-align: center;
 }
 
-/*Colors*/
 footer {
   height: 100%;
   width: 100%;
