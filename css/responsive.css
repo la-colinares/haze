@@ -158,7 +158,7 @@
     height: 100%;
   }
   .contact-map #gmap-canvas {
-    width: 420px;
+    width: 400px;
   }
   .contact-map .iframe {
     width: 100%;
@@ -226,7 +226,7 @@
     text-align: center;
   }
   .contact-map #gmap-canvas {
-    width: 360px;
+    width: 350px;
   }
   .contact-map .iframe {
     width: 100%;
