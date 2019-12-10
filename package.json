@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "Website for Haze Band",
   "main": "index.js",
+  "homepage": "https://la-colinares.github.io/haze",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Lowi Adrian Colinares",
   "license": "MIT",
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^4.4.0",
+    "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
     "node-sass": "^4.13.0",
     "popper.js": "^1.16.0",
